@@ -38,7 +38,7 @@ permalink: /support/
   <h2>📞 Contact Support</h2>
   <p>If you need additional help or have questions not covered here, you can:</p>
   <ul>
-    <li>📧 Email us at <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+    <li>📧 Email us at <a href="mailto:exiframe@hakanmelikoglu.com">exiframe@hakanmelikoglu.com</a></li>
     <li>📜 Visit our <a href="/privacy-policy/photoexif-mark">Privacy Policy</a></li>
     <li>💻 Follow us on <a href="https://github.com/hakanmelikoglu">GitHub</a></li>
   </ul>

@@ -1,6 +1,6 @@
 title: Hakan Melikoglu
 description: iOS Developer & Technology Enthusiast
-url: "https://hakanmelikoglu.com"
+url: "https://hakanmelikoglu.github.io"
 baseurl: ""
 
 # Theme settings
@@ -14,12 +14,13 @@ header_pages:
   - about.md
   - projects.md
   - blog.md
+  - support.md
   - privacy-policy.md
 
 # Author info
 author:
   name: Hakan Melikoglu
-  email: your.email@example.com
+  email: exiframe@hakanmelikoglu.com
   
 # Social links
 github_username: hakanmelikoglu

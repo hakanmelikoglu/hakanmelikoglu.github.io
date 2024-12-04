@@ -23,4 +23,4 @@ All data processing happens locally on your device.
 We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page.
 
 ## Contact Us
-If you have any questions about this privacy policy, please contact us at [your contact email]. 
+If you have any questions about this privacy policy, please contact us at <a href="mailto:exiframe@hakanmelikoglu.com">exiframe@hakanmelikoglu.com</a>. 

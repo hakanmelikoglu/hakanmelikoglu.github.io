@@ -31,7 +31,7 @@ Stay tuned for my thoughts on iOS development, tech insights, and project update
 
 - 💼 [LinkedIn](https://linkedin.com/in/hakanmelikoglu)
 - 🐙 [GitHub](https://github.com/hakanmelikoglu)
-- 📧 [Contact Me](mailto:your.email@example.com)
+- 📧 [Contact Me](mailto:exiframe@hakanmelikoglu.com)
 
 <style>
 .hero-section {
