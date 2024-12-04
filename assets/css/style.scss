@@ -8,43 +8,201 @@ body {
     background-color: #f8f9fa;
 }
 
+// Enhanced Header Styles
 .site-header {
-    border-top: 5px solid #007bff;
-    border-bottom: 1px solid #e8e8e8;
-    min-height: 55.95px;
-    position: relative;
-    background-color: white;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-top: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    min-height: 70px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255,255,255,0.98);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
 }
 
 .site-title {
-    font-weight: 600;
-    color: #007bff !important;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background: linear-gradient(45deg, #007bff, #00bcd4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.5px;
     
     &:hover {
         text-decoration: none;
-        color: #0056b3 !important;
+        opacity: 0.9;
     }
 }
 
-.site-nav .page-link {
-    color: #333;
-    font-weight: 500;
+.site-nav {
+    display: flex;
+    align-items: center;
     
-    &:hover {
-        color: #007bff;
-        text-decoration: none;
+    .page-link {
+        color: #333;
+        font-weight: 500;
+        padding: 0.5rem 1rem;
+        margin: 0 0.2rem;
+        border-radius: 8px;
+        transition: all 0.2s ease;
+        
+        &:hover {
+            color: #007bff;
+            background: rgba(0,123,255,0.1);
+            text-decoration: none;
+        }
+        
+        &.active {
+            color: #007bff;
+            background: rgba(0,123,255,0.1);
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        padding: 1rem;
+        margin: 0.5rem;
+        
+        .page-link {
+            display: block;
+            margin: 0.5rem 0;
+            padding: 0.8rem 1.5rem;
+            text-align: left;
+            
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+        }
     }
 }
 
-.post-content {
+// Enhanced Footer Styles
+.site-footer {
     background: white;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin-bottom: 2rem;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding: 3rem 0;
+    margin-top: 4rem;
+    
+    .footer-heading {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 1.5rem;
+    }
+    
+    .footer-col-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        color: #666;
+    }
+    
+    .footer-col {
+        margin-bottom: 0;
+    }
+    
+    .contact-list,
+    .social-media-list {
+        list-style: none;
+        margin-left: 0;
+        
+        li {
+            margin-bottom: 0.8rem;
+        }
+        
+        a {
+            color: #666;
+            transition: color 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            
+            &:hover {
+                color: #007bff;
+                text-decoration: none;
+            }
+            
+            .username {
+                font-weight: 500;
+            }
+        }
+    }
+    
+    .footer-description {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(0,0,0,0.1);
+        text-align: center;
+        color: #888;
+        font-size: 0.9rem;
+    }
 }
 
+// Dark mode support
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1a1a1a;
+        color: #fff;
+    }
+    
+    .site-header {
+        background-color: rgba(26,26,26,0.98);
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .site-nav {
+        .page-link {
+            color: #fff;
+            
+            &:hover {
+                background: rgba(255,255,255,0.1);
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            background-color: #1a1a1a;
+        }
+    }
+    
+    .site-footer {
+        background: #1a1a1a;
+        border-top: 1px solid rgba(255,255,255,0.1);
+        
+        .footer-heading {
+            color: #fff;
+        }
+        
+        .footer-col-wrapper {
+            color: #ccc;
+        }
+        
+        .contact-list,
+        .social-media-list {
+            a {
+                color: #ccc;
+                
+                &:hover {
+                    color: #007bff;
+                }
+            }
+        }
+        
+        .footer-description {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #888;
+        }
+    }
+}
+
+// Rest of your existing styles...
 .project-card {
     border: 1px solid #e8e8e8;
     padding: 1.5rem;
@@ -59,7 +217,6 @@ body {
     }
 }
 
-// Add styles for app store badges
 .app-store-badge {
     max-width: 200px;
     margin: 20px 0;
@@ -70,7 +227,6 @@ body {
     }
 }
 
-// Add styles for privacy policy
 .privacy-policy {
     max-width: 800px;
     margin: 0 auto;
@@ -78,67 +234,4 @@ body {
     background: white;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-// Footer styles
-.site-footer {
-    background: white;
-    border-top: 1px solid #e8e8e8;
-    padding: 2rem 0;
-    
-    .footer-col-wrapper {
-        color: #666;
-    }
-    
-    .social-media-list {
-        li + li {
-            padding-top: 5px;
-        }
-        
-        .username {
-            font-size: 0.9em;
-        }
-    }
-}
-
-// Responsive improvements
-@media screen and (max-width: 600px) {
-    .site-nav {
-        background-color: white;
-        border: 1px solid #e8e8e8;
-        border-radius: 5px;
-        text-align: center;
-    }
-    
-    .post-content {
-        padding: 1rem;
-    }
-}
-
-// Link styles
-a {
-    color: #007bff;
-    transition: color 0.2s ease;
-    
-    &:hover {
-        color: #0056b3;
-        text-decoration: underline;
-    }
-}
-
-// Button styles
-.button {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-    background-color: #007bff;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.2s ease;
-    
-    &:hover {
-        background-color: #0056b3;
-        color: white;
-        text-decoration: none;
-    }
 } 

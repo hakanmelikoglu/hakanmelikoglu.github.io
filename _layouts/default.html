@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+        <div class="footer-col-wrapper">
+          <div class="footer-col">
+            <h2 class="footer-heading">About EXIFrame</h2>
+            <p>A powerful iOS app for managing and editing photo EXIF data with privacy in mind. Built with care for photographers and privacy enthusiasts.</p>
+          </div>
+
+          <div class="footer-col">
+            <h2 class="footer-heading">Quick Links</h2>
+            <ul class="contact-list">
+              <li><a href="{{ '/projects' | relative_url }}">📱 Projects</a></li>
+              <li><a href="{{ '/support' | relative_url }}">💡 Support</a></li>
+              <li><a href="{{ '/privacy-policy/photoexif-mark' | relative_url }}">🔒 Privacy Policy</a></li>
+              <li><a href="{{ '/terms-of-use' | relative_url }}">📋 Terms of Use</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h2 class="footer-heading">Connect</h2>
+            {%- include social.html -%}
+            <ul class="contact-list">
+              <li><a href="mailto:{{ site.author.email }}">📧 {{ site.author.email }}</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-description">
+          <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+</html> 
