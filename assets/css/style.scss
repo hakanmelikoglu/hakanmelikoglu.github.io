@@ -5,23 +5,57 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
     color: #333;
+    background-color: #f8f9fa;
 }
 
 .site-header {
-    border-top: 5px solid #424242;
+    border-top: 5px solid #007bff;
     border-bottom: 1px solid #e8e8e8;
     min-height: 55.95px;
     position: relative;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.site-title {
+    font-weight: 600;
+    color: #007bff !important;
+    
+    &:hover {
+        text-decoration: none;
+        color: #0056b3 !important;
+    }
+}
+
+.site-nav .page-link {
+    color: #333;
+    font-weight: 500;
+    
+    &:hover {
+        color: #007bff;
+        text-decoration: none;
+    }
+}
+
+.post-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
 }
 
 .project-card {
     border: 1px solid #e8e8e8;
-    padding: 15px;
+    padding: 1.5rem;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
+    background: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     
     &:hover {
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
 }
 
@@ -29,11 +63,82 @@ body {
 .app-store-badge {
     max-width: 200px;
     margin: 20px 0;
+    transition: opacity 0.2s ease;
+    
+    &:hover {
+        opacity: 0.8;
+    }
 }
 
 // Add styles for privacy policy
 .privacy-policy {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+// Footer styles
+.site-footer {
+    background: white;
+    border-top: 1px solid #e8e8e8;
+    padding: 2rem 0;
+    
+    .footer-col-wrapper {
+        color: #666;
+    }
+    
+    .social-media-list {
+        li + li {
+            padding-top: 5px;
+        }
+        
+        .username {
+            font-size: 0.9em;
+        }
+    }
+}
+
+// Responsive improvements
+@media screen and (max-width: 600px) {
+    .site-nav {
+        background-color: white;
+        border: 1px solid #e8e8e8;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    .post-content {
+        padding: 1rem;
+    }
+}
+
+// Link styles
+a {
+    color: #007bff;
+    transition: color 0.2s ease;
+    
+    &:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+}
+
+// Button styles
+.button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    
+    &:hover {
+        background-color: #0056b3;
+        color: white;
+        text-decoration: none;
+    }
 } 
