@@ -8,12 +8,12 @@ title: Home
 ## iOS Developer & Technology Enthusiast
 
 I create intuitive and user-focused iOS applications that make a difference in people's daily lives.
-[Check out my projects](/projects) or [read my blog](/blog).
+[Check out my projects](/exiframe/projects) or [read my blog](/exiframe/blog).
 </div>
 
 ## Featured Project
 
-### 📱 PhotoExif Mark
+### 📱 EXIFrame
 A powerful iOS app for managing and editing photo EXIF data with privacy in mind.
 
 - 🔒 Privacy-focused design
@@ -21,7 +21,7 @@ A powerful iOS app for managing and editing photo EXIF data with privacy in mind
 - 🎯 Intuitive interface
 - ⚡️ Fast and efficient
 
-[Learn More](/projects) | [Get Support](/support)
+[Learn More](/exiframe/projects) | [Get Support](/exiframe/support)
 
 ## Latest Blog Posts
 

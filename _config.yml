@@ -1,7 +1,7 @@
 title: Hakan Melikoglu
 description: iOS Developer & Technology Enthusiast
 url: "https://hakanmelikoglu.github.io"
-baseurl: ""
+baseurl: "/exiframe"
 
 # Theme settings
 theme: minima
@@ -16,6 +16,7 @@ header_pages:
   - blog.md
   - support.md
   - privacy-policy.md
+  - terms-of-use.md
 
 # Author info
 author:

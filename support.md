@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Support
-permalink: /support/
+permalink: /exiframe/support/
 ---
 
 <div class="support-header">
-  <h1>📱 PhotoExif Mark Support</h1>
-  <p>Welcome to the PhotoExif Mark support page. Here you'll find answers to common questions and ways to get help.</p>
+  <h1>📱 EXIFrame Support</h1>
+  <p>Welcome to the EXIFrame support page. Here you'll find answers to common questions and ways to get help.</p>
 </div>
 
 <div class="support-section faq">
@@ -15,7 +15,7 @@ permalink: /support/
   <div class="faq-item">
     <h3>How do I edit EXIF data?</h3>
     <ol>
-      <li>Open PhotoExif Mark</li>
+      <li>Open EXIFrame</li>
       <li>Select a photo from your library</li>
       <li>Tap on the EXIF field you want to edit</li>
       <li>Make your changes</li>
@@ -25,7 +25,7 @@ permalink: /support/
 
   <div class="faq-item">
     <h3>Is my data secure?</h3>
-    <p>Yes! PhotoExif Mark processes all data locally on your device. We don't collect or transmit any of your personal information or photo data.</p>
+    <p>Yes! EXIFrame processes all data locally on your device. We don't collect or transmit any of your personal information or photo data.</p>
   </div>
 
   <div class="faq-item">
@@ -39,7 +39,8 @@ permalink: /support/
   <p>If you need additional help or have questions not covered here, you can:</p>
   <ul>
     <li>📧 Email us at <a href="mailto:exiframe@hakanmelikoglu.com">exiframe@hakanmelikoglu.com</a></li>
-    <li>📜 Visit our <a href="/privacy-policy/photoexif-mark">Privacy Policy</a></li>
+    <li>📜 Visit our <a href="/exiframe/privacy-policy/photoexif-mark">Privacy Policy</a></li>
+    <li>📋 Read our <a href="/exiframe/terms-of-use">Terms of Use</a></li>
     <li>💻 Follow us on <a href="https://github.com/hakanmelikoglu">GitHub</a></li>
   </ul>
 </div>
@@ -68,7 +69,7 @@ permalink: /support/
   <div class="troubleshooting-item">
     <h3>Permission Issues</h3>
     <p>The app needs permission to access your photos. You can grant this in:</p>
-    <p><code>Settings → Privacy → Photos → PhotoExif Mark</code></p>
+    <p><code>Settings → Privacy → Photos → EXIFrame</code></p>
   </div>
 </div>
 
