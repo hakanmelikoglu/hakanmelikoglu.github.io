@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="header-content">
       <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-        <span class="title-text">{{ site.title }}</span>
+        <span class="logo">HM</span>
       </a>
 
       <nav class="site-nav">
@@ -24,4 +24,53 @@
       </nav>
     </div>
   </div>
-</header> 
+</header>
+
+<style>
+.logo {
+  font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  letter-spacing: -1px;
+  background: linear-gradient(135deg, #5856D6, #92FE9D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 4px 8px;
+  border-radius: 8px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.logo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(88, 86, 214, 0.1), rgba(146, 254, 157, 0.1));
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.site-title:hover .logo::after {
+  opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo {
+    background: linear-gradient(135deg, #5856D6, #8E8DE3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .logo::after {
+    background: linear-gradient(135deg, rgba(88, 86, 214, 0.2), rgba(142, 141, 227, 0.2));
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    font-size: 24px;
+  }
+}
+</style> 
