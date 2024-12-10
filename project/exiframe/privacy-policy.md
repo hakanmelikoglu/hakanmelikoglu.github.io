@@ -1,7 +1,7 @@
 ---
 layout: page
 title: EXIFrame Privacy Policy
-permalink: /exiframe/privacy-policy/
+permalink: /project/exiframe/privacy-policy/
 ---
 
 <div class="privacy-policy-content" markdown="1">
