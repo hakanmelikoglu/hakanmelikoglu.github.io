@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: /exiframe/projects/
+permalink: /projects/
 ---
 
 <div class="app-showcase">
@@ -65,9 +65,9 @@ permalink: /exiframe/projects/
       <div class="info-card">
         <h3>Support</h3>
         <ul>
-          <li><a href="/exiframe/support">Get Help</a></li>
-          <li><a href="/exiframe/privacy-policy/photoexif-mark">Privacy Policy</a></li>
-          <li><a href="/exiframe/terms-of-use">Terms of Use</a></li>
+          <li><a href="/support">Get Help</a></li>
+          <li><a href="/privacy-policy/photoexif-mark">Privacy Policy</a></li>
+          <li><a href="/terms-of-use">Terms of Use</a></li>
         </ul>
       </div>
 
@@ -75,7 +75,7 @@ permalink: /exiframe/projects/
         <h3>Contact</h3>
         <ul>
           <li><a href="mailto:exiframe@hakanmelikoglu.com">Email Support</a></li>
-          <li><a href="/exiframe/contact">Contact Form</a></li>
+          <li><a href="/contact">Contact Form</a></li>
         </ul>
       </div>
     </div>

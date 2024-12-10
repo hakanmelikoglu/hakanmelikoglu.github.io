@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-permalink: /exiframe/contact/
+permalink: /contact/
 ---
 
 <div class="contact-container">

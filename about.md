@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /exiframe/about/
+permalink: /about/
 ---
 
 <div class="about-container">

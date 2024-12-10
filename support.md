@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Support
-permalink: /exiframe/support/
+permalink: /support/
 ---
 
 <div class="support-header">
