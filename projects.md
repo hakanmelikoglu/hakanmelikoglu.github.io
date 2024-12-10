@@ -28,7 +28,26 @@ permalink: /projects/
       </div>
     </div>
     <div class="project-content">
-      <h2>EXIFrame</h2>
+      <div class="project-header">
+        <div class="project-logo">
+          <div class="logo-gradient">
+            <div class="camera-settings">
+              <div class="setting">
+                <span class="icon">ƒ</span>
+                <span class="value">1.8</span>
+              </div>
+              <div class="setting">
+                <span class="value">ISO</span>
+                <span class="value">100</span>
+              </div>
+              <div class="setting">
+                <span class="value">1/60</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2>EXIFrame</h2>
+      </div>
       <p class="project-description">A privacy-focused EXIF editor for iOS that puts your data control first. Edit, view, and remove EXIF data from your photos with ease.</p>
       <div class="project-links">
         <a href="/project/exiframe/" class="primary-button">Learn More</a>
@@ -109,6 +128,38 @@ permalink: /projects/
   padding-bottom: 1.5rem;
 }
 
+.project-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #00C9FF, #92FE9D, #FFF94C, #FF9A8B);
+  background-size: 300% 300%;
+  animation: gradientShift 15s ease infinite;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 0.25rem;
+}
+
+.project-logo .camera-settings {
+  transform: scale(0.2);
+  margin-bottom: -8px;
+}
+
 .camera-settings {
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(10px);
@@ -141,7 +192,7 @@ permalink: /projects/
 
 .project-content h2 {
   font-size: 2rem;
-  margin: 0 0 1rem;
+  margin: 0;
   background: linear-gradient(120deg, var(--primary-color), #92FE9D);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -223,10 +274,20 @@ permalink: /projects/
     height: 140px;
   }
 
+  .project-logo {
+    width: 40px;
+    height: 40px;
+  }
+
   .camera-settings {
     transform: scale(0.5);
     padding: 0.4rem 0.8rem;
     gap: 0.8rem;
+  }
+
+  .project-logo .camera-settings {
+    transform: scale(0.15);
+    margin-bottom: -10px;
   }
 
   .setting {
