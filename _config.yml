@@ -11,13 +11,10 @@ plugins:
 
 # Navigation
 header_pages:
-  - about.md
+  - index.md
   - projects.md
-  - blog.md
-  - support.md
-  - privacy-policy.md
-  - terms-of-use.md
-  - copyright.md
+  - about.md
+  - contact.md
 
 # Author info
 author:
