@@ -1,32 +1,6 @@
 @import "minima";
-@import "{{ site.theme }}";
 
-// Custom styles
-:root {
-  --primary-color: #5856D6;
-  --text-color: #2c3e50;
-  --light-text: #666;
-  --border-color: #EEEEEE;
-  --background-color: #FFFFFF;
-  --header-background: rgba(255, 255, 255, 0.98);
-  --card-background: rgba(255, 255, 255, 0.1);
-  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  --hover-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  --nav-text: #555555;
-  --nav-hover: #007AFF;
-  --nav-active: #0056b3;
-}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.6;
-  color: var(--text-color);
-  margin: 0;
-  padding: 0;
-  background-color: var(--background-color);
-}
-
-// Modern Header Styles
+/* Header and Navigation Styles */
 .site-header {
   border-top: none !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
@@ -39,19 +13,19 @@ body {
   min-height: 60px !important;
   padding: 8px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
 
-  .wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
-  .header-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 60px;
-  }
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
 }
 
 .site-title {
@@ -86,6 +60,10 @@ body {
 
   .menu-icon {
     display: none;
+  }
+
+  .trigger {
+    display: block;
   }
 
   .nav-links {
@@ -128,87 +106,7 @@ body {
   }
 }
 
-// Modern Container and Card Styles
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
-
-.home {
-  padding: 3rem 0;
-}
-
-.post-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 2rem;
-}
-
-.post-list > li {
-  margin: 0;
-  background: var(--card-background);
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: var(--card-shadow);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--hover-shadow);
-  }
-}
-
-.post-link {
-  display: block;
-  padding: 1.5rem;
-  color: var(--text-color);
-  text-decoration: none;
-  
-  h3 {
-    margin: 0 0 1rem;
-    font-size: 1.5rem;
-    color: var(--primary-color);
-  }
-  
-  &:hover {
-    text-decoration: none;
-  }
-}
-
-.post-meta {
-  font-size: 0.9rem;
-  color: var(--light-text);
-  margin-bottom: 0.5rem;
-}
-
-// Dark mode
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-color: #e1e1e1;
-    --light-text: #a1a1a1;
-    --border-color: #333333;
-    --background-color: #1a1a1a;
-    --header-background: rgba(26, 26, 26, 0.98);
-    --card-background: #2d2d2d;
-    --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    --hover-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    --nav-text: #DDDDDD;
-    --nav-hover: #007AFF;
-    --nav-active: #4da3ff;
-  }
-
-  .site-nav {
-    .menu-icon-container:hover {
-      background-color: rgba(255, 255, 255, 0.1);
-    }
-  }
-}
-
-// Responsive Design
+/* Mobile Navigation */
 @media screen and (max-width: 600px) {
   .site-nav {
     position: absolute !important;
@@ -221,11 +119,6 @@ body {
     padding: 10px 0;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 200px;
-    display: none;
-
-    .nav-trigger:checked ~ .trigger {
-      display: block;
-    }
 
     .menu-icon {
       display: block;
@@ -262,6 +155,11 @@ body {
       padding: 5px 0;
     }
 
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
     .page-link {
       display: block;
       padding: 12px 24px;
@@ -294,6 +192,35 @@ body {
 
       &::after {
         transform: rotate(-45deg) translate(5px, -5px);
+      }
+    }
+  }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .site-header {
+    background: rgba(18, 18, 18, 0.95);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  }
+
+  .site-title {
+    background: linear-gradient(120deg, #5856D6, #8E8DE3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .site-nav {
+    @media screen and (max-width: 600px) {
+      background-color: #1a1a1a !important;
+      border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .page-link {
+      color: var(--text-color);
+
+      &:hover {
+        background: rgba(88, 86, 214, 0.2);
       }
     }
   }
