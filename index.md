@@ -17,12 +17,12 @@ permalink: /
     <div class="project-card">
       <div class="project-hero">
         <div class="hero-gradient">
-          <img src="/assets/images/exiframe/exifly-logo-light.png" alt="EXIFrame" class="app-icon">
+          <img src="{{ '/assets/images/exiframe/exifly-logo-light.png' | relative_url }}" alt="EXIFrame" class="app-icon">
         </div>
       </div>
       <div class="project-content">
         <div class="project-header">
-          <img src="/assets/images/exiframe/exifly-logo-light.png" alt="EXIFrame" class="project-logo">
+          <img src="{{ '/assets/images/exiframe/exifly-logo-light.png' | relative_url }}" alt="EXIFrame" class="project-logo">
           <h2>EXIFrame</h2>
         </div>
         <p class="project-description">A privacy-focused EXIF editor for iOS that puts your data control first. Edit, view, and remove EXIF data from your photos with ease.</p>

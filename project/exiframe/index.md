@@ -7,13 +7,13 @@ permalink: /project/exiframe/
 <div class="project-container">
   <div class="project-hero">
     <div class="hero-gradient">
-      <img src="/assets/images/exiframe/exifly-logo-light.png" alt="EXIFrame" class="app-icon">
+      <img src="{{ '/assets/images/exiframe/exifly-logo-light.png' | relative_url }}" alt="EXIFrame" class="app-icon">
     </div>
   </div>
 
   <div class="project-content">
     <div class="project-header">
-      <img src="/assets/images/exiframe/exifly-logo-light.png" alt="EXIFrame" class="project-logo">
+      <img src="{{ '/assets/images/exiframe/exifly-logo-light.png' | relative_url }}" alt="EXIFrame" class="project-logo">
       <h1>EXIFrame</h1>
     </div>
 
