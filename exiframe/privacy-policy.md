@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Privacy Policy
-permalink: /privacy-policy/photoexif-mark/
+title: EXIFrame Privacy Policy
+permalink: /exiframe/privacy-policy/
 ---
 
 <div class="privacy-policy-content" markdown="1">
