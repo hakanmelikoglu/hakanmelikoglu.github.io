@@ -17,44 +17,12 @@ permalink: /
     <div class="project-card">
       <div class="project-hero">
         <div class="hero-gradient">
-          <div class="app-icon">
-            <div class="icon-gradient">
-              <div class="camera-settings">
-                <div class="setting">
-                  <span class="icon">ƒ</span>
-                  <span class="value">1.8</span>
-                </div>
-                <div class="setting">
-                  <span class="value">ISO</span>
-                  <span class="value">100</span>
-                </div>
-                <div class="setting">
-                  <span class="value">1/60</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <img src="/assets/images/exiframe/exifly-logo-light.png" alt="EXIFrame" class="app-icon">
         </div>
       </div>
       <div class="project-content">
         <div class="project-header">
-          <div class="project-logo">
-            <div class="logo-gradient">
-              <div class="camera-settings">
-                <div class="setting">
-                  <span class="icon">ƒ</span>
-                  <span class="value">1.8</span>
-                </div>
-                <div class="setting">
-                  <span class="value">ISO</span>
-                  <span class="value">100</span>
-                </div>
-                <div class="setting">
-                  <span class="value">1/60</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <img src="/assets/images/exiframe/exifly-logo-light.png" alt="EXIFrame" class="project-logo">
           <h2>EXIFrame</h2>
         </div>
         <p class="project-description">A privacy-focused EXIF editor for iOS that puts your data control first. Edit, view, and remove EXIF data from your photos with ease.</p>
@@ -144,25 +112,12 @@ permalink: /
   border-radius: 37.5%;
   background: #fff;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-  overflow: hidden;
-  position: relative;
   transition: transform 0.3s ease;
+  object-fit: cover;
 }
 
 .app-icon:hover {
   transform: scale(1.05);
-}
-
-.icon-gradient {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, #00C9FF, #92FE9D, #FFF94C, #FF9A8B);
-  background-size: 300% 300%;
-  animation: gradientShift 15s ease infinite;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding-bottom: 1.5rem;
 }
 
 .project-header {
@@ -176,51 +131,8 @@ permalink: /
   width: 48px;
   height: 48px;
   border-radius: 12px;
-  overflow: hidden;
-  position: relative;
-}
-
-.logo-gradient {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, #00C9FF, #92FE9D, #FFF94C, #FF9A8B);
-  background-size: 300% 300%;
-  animation: gradientShift 15s ease infinite;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding-bottom: 0.25rem;
-}
-
-.project-logo .camera-settings {
-  transform: scale(0.2);
-  margin-bottom: -8px;
-}
-
-.camera-settings {
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  padding: 0.5rem 1rem;
-  border-radius: 12px;
-  display: flex;
-  gap: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Mono", monospace;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transform: scale(0.6);
-}
-
-.setting {
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-  color: #1a1a1a;
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
-.setting .icon {
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro", system-ui;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .project-content {
@@ -291,16 +203,6 @@ permalink: /
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .camera-settings {
-    background: rgba(0, 0, 0, 0.8);
-  }
-
-  .setting {
-    color: white;
-  }
-}
-
 @media (max-width: 768px) {
   .hero-section {
     padding: 2rem 0;
@@ -330,21 +232,6 @@ permalink: /
   .project-logo {
     width: 40px;
     height: 40px;
-  }
-
-  .camera-settings {
-    transform: scale(0.5);
-    padding: 0.4rem 0.8rem;
-    gap: 0.8rem;
-  }
-
-  .project-logo .camera-settings {
-    transform: scale(0.15);
-    margin-bottom: -10px;
-  }
-
-  .setting {
-    font-size: 1rem;
   }
 
   .project-content {
