@@ -8,17 +8,21 @@ permalink: /projects/
   <div class="project-card exiframe">
     <div class="project-hero">
       <div class="hero-gradient">
-        <div class="camera-settings">
-          <div class="setting">
-            <span class="icon">ƒ</span>
-            <span class="value">1.8</span>
-          </div>
-          <div class="setting">
-            <span class="value">ISO</span>
-            <span class="value">100</span>
-          </div>
-          <div class="setting">
-            <span class="value">1/60</span>
+        <div class="app-icon">
+          <div class="icon-gradient">
+            <div class="camera-settings">
+              <div class="setting">
+                <span class="icon">ƒ</span>
+                <span class="value">1.8</span>
+              </div>
+              <div class="setting">
+                <span class="value">ISO</span>
+                <span class="value">100</span>
+              </div>
+              <div class="setting">
+                <span class="value">1/60</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -73,29 +77,57 @@ permalink: /projects/
   background-size: 300% 300%;
   animation: gradientShift 15s ease infinite;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   padding: 2rem;
+}
+
+.app-icon {
+  width: 180px;
+  height: 180px;
+  border-radius: 37.5%;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.app-icon:hover {
+  transform: scale(1.05);
+}
+
+.icon-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #00C9FF, #92FE9D, #FFF94C, #FF9A8B);
+  background-size: 300% 300%;
+  animation: gradientShift 15s ease infinite;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 1.5rem;
 }
 
 .camera-settings {
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  padding: 1rem 2rem;
-  border-radius: 16px;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   font-family: -apple-system, BlinkMacSystemFont, "SF Mono", monospace;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: scale(0.6);
 }
 
 .setting {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.25rem;
   color: #1a1a1a;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -186,13 +218,19 @@ permalink: /projects/
     height: 300px;
   }
 
+  .app-icon {
+    width: 140px;
+    height: 140px;
+  }
+
   .camera-settings {
-    padding: 0.8rem 1.5rem;
-    gap: 1.5rem;
+    transform: scale(0.5);
+    padding: 0.4rem 0.8rem;
+    gap: 0.8rem;
   }
 
   .setting {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .project-content {
