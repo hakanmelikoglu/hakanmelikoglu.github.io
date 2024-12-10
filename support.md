@@ -39,8 +39,8 @@ permalink: /support/
   <p>If you need additional help or have questions not covered here, you can:</p>
   <ul>
     <li>📧 Email us at <a href="mailto:exiframe@hakanmelikoglu.com">exiframe@hakanmelikoglu.com</a></li>
-    <li>📜 Visit our <a href="/exiframe/privacy-policy/photoexif-mark">Privacy Policy</a></li>
-    <li>📋 Read our <a href="/exiframe/terms-of-use">Terms of Use</a></li>
+    <li>📜 Visit our <a href="/privacy-policy/photoexif-mark">Privacy Policy</a></li>
+    <li>📋 Read our <a href="/terms-of-use">Terms of Use</a></li>
     <li>💻 Follow us on <a href="https://github.com/hakanmelikoglu">GitHub</a></li>
   </ul>
 </div>

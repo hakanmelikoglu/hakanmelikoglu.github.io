@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Terms of Use for EXIFrame
-permalink: /exiframe/terms-of-use/
+title: Terms of Use
+permalink: /terms-of-use/
 ---
 
 <div class="terms-content" markdown="1">
