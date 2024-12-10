@@ -6,43 +6,56 @@ permalink: /project/exiframe/terms-of-use/
 
 <div class="terms-content" markdown="1">
 
-# Terms of Use for EXIFrame
-*Last updated: December 4, 2024*
+TERMS OF USE (EULA)
+*Last updated: December 10, 2024*
 
-## Agreement to Terms
-By downloading, installing, or using the EXIFrame application ("App"), you agree to be bound by these Terms of Use. If you disagree with any part of these terms, you may not use our App.
+Welcome to EXIFrame (the “App”), provided by Hakan Melikoglu (“we,” “us,” or “our”). By downloading, installing, accessing, or using the App, you agree to these Terms of Use and End-User License Agreement (collectively, the “Terms”). If you do not agree, please do not use the App.
 
-## Use License
-EXIFrame grants you a limited, non-exclusive, non-transferable, revocable license to use the App for your personal, non-commercial purposes.
+1. License Grant
+We grant you a limited, non-exclusive, non-transferable, revocable license to use the App solely for your personal, non-commercial purposes. You agree not to reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit the App or any portion thereof, except as permitted by these Terms.
 
-## Restrictions
+2. In-App Purchases and Subscriptions
+EXIFrame offers both one-time purchases and auto-renewable subscription options for additional features and content.
+	•	Lifetime In-App Purchase: One-time purchase for USD $7.99. This grants you lifetime access to the designated premium features without expiration.
+	•	Monthly Subscription: USD $0.99 per month. This subscription will unlock premium features on a monthly, auto-renewing basis.
+
+2.1 Billing and Auto-Renewal
+For the monthly subscription, payment will be charged to your Apple ID account upon purchase confirmation. The subscription automatically renews each month at the stated price unless you turn off auto-renewal at least 24 hours before the end of the current billing period. Your account will be charged for renewal within 24 hours prior to the end of the current period at the cost of the chosen plan.
+
+2.2 Managing Your Subscription
+You can manage your subscription or turn off auto-renewal at any time by accessing your account settings in the App Store. Turning off auto-renew will prevent future charges but will not result in a refund of the current subscription period.
+
+2.3 Refunds
+All payments are processed by Apple. We do not have the ability to issue refunds. For any refund requests, please refer to Apple’s refund policies and procedures.
+
+3. No Data Collection
+We do not collect any personal information or usage data from you when you use the App. For more details, please review our Privacy Policy at: [Privacy Policy URL]
+
+4. Intellectual Property
+All content, features, and functionality of the App—including but not limited to text, graphics, images, logos, and software—are owned by us or our licensors and are protected by intellectual property laws. You may not use such content without our prior written permission.
+
+5. User Conduct
 You agree not to:
-- Modify, adapt, or hack the App
-- Use the App for any illegal purposes
-- Attempt to decompile or reverse engineer the App
-- Transfer your license rights to any other party
+	•	Use the App for any unlawful purpose.
+	•	Attempt to gain unauthorized access to the App or its related systems.
+	•	Reverse engineer, decompile, or otherwise attempt to discover the source code of the App.
+	•	Interfere with the proper functioning of the App.
 
-## Privacy
-Your privacy is important to us. Please review our [Privacy Policy](/project/exiframe/privacy-policy) to understand how we handle your data.
+6. Disclaimer of Warranties
+The App is provided “as is” and “as available,” without warranties of any kind, either express or implied. We do not guarantee that the App will be error-free or uninterrupted.
 
-## App Store Terms
-Your use of the App must comply with all applicable Apple App Store terms of service.
+7. Limitation of Liability
+To the fullest extent permitted by law, we will not be liable for any indirect, incidental, special, or consequential damages arising out of or related to your use or inability to use the App.
 
-## Modifications to App
-EXIFrame reserves the right to modify or discontinue, temporarily or permanently, the App with or without notice.
+8. Changes to These Terms
+We may update these Terms occasionally. When we do, we will update the “Last Updated” date at the top of this page. Your continued use of the App after any changes indicates your acceptance of the revised Terms.
 
-## Disclaimer
-The App is provided "as is" without any warranties, expressed or implied.
+9. Governing Law
+These Terms are governed by and construed in accordance with the laws of [Your Country/State], without regard to its conflicts of law principles. Any disputes shall be resolved by the courts located in [Your Jurisdiction].
 
-## Limitation of Liability
-In no event shall EXIFrame be liable for any damages arising out of the use or inability to use the App.
-
-## Changes to Terms
-We reserve the right to modify these terms at any time. We will notify users of any changes by updating the date at the top of these terms.
-
-## Contact
-If you have any questions about these Terms, please contact us:
-- Email: [exiframe@hakanmelikoglu.com](mailto:exiframe@hakanmelikoglu.com)
+10. Contact Us
+If you have questions or concerns about these Terms, please contact us at:
+Email: [exiframe@hakanmelikoglu.com](mailto:exiframe@hakanmelikoglu.com)
 
 </div>
 

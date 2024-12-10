@@ -9,54 +9,62 @@ permalink: /project/exiframe/privacy-policy/
 # Privacy Policy for EXIFrame
 *Last updated: December 4, 2024*
 
-## Introduction
-EXIFrame ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our EXIFrame application (the "App").
+Introduction
 
-## Information We Don't Collect
-EXIFrame is designed with your privacy in mind. We want to be clear that:
-- We do not collect any personal information
-- We do not track your location
-- We do not store or upload your photos
-- We do not use analytics services
-- We do not have any third-party trackers
-- We do not share any data with third parties
+EXIFrame (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our EXIFrame application (the “App”).
 
-## Photo Access and Processing
-- The App requires access to your photo library solely to read EXIF data and process images locally on your device
-- All photo processing happens entirely on your device
-- No photos or EXIF data are ever transmitted outside your device
-- Photos are not stored by the App; they are only processed in temporary memory
+Information We Do Not Collect
 
-## Data Storage
-- All app preferences and settings are stored locally on your device
-- Purchase records for Pro features are managed through Apple's App Store system
+EXIFrame is designed with your privacy in mind. To be clear:
+	•	We do not collect any personal information.
+	•	We do not track your location.
+	•	We do not store or upload your photos.
+	•	We do not use analytics services.
+	•	We do not have any third-party trackers.
+	•	We do not share any data with third parties.
 
-## Children's Privacy
-Our App does not knowingly collect any personal information from children under 13 years of age.
+Photo Access and Processing
 
-## Changes to This Privacy Policy
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.
+EXIFrame may require access to your device’s photo library solely for the purpose of reading EXIF data and processing images. All photo processing occurs entirely on your device:
+	•	No photos or EXIF data are ever transmitted outside your device.
+	•	Photos are not stored by the App; they are only processed in temporary memory to provide you with the requested features.
 
-## Contact Us
-If you have any questions about this Privacy Policy, please contact us:
+Data Storage
+	•	All app preferences and settings are stored locally on your device.
+	•	Purchase records for Pro features (one-time purchase or subscriptions) are managed entirely through Apple’s App Store system. We do not receive or store any payment information directly.
 
-Via email: [exiframe@hakanmelikoglu.com](mailto:exiframe@hakanmelikoglu.com)
+Children’s Privacy
 
-## Your Rights
+We do not knowingly collect any personal information from children under the age of 13. Since we do not collect data at all, there is no specific risk to children’s privacy.
+
+Your Rights
+
 You have the right to:
-- Access your data (though we don't collect any)
-- Delete any data (though we don't store any)
-- Opt-out of data collection (we don't collect any data to opt out of)
+	•	Access your data (though we do not collect any).
+	•	Delete any data (though we do not store any).
+	•	Opt out of data collection (we do not collect any data to opt out of).
 
-## Compliance
-This App complies with:
-- Apple's App Store Guidelines
-- GDPR (General Data Protection Regulation)
-- CCPA (California Consumer Privacy Act)
+Compliance
 
-## Transparency
-We believe in complete transparency about data handling. Our App is designed to respect your privacy by processing everything locally on your device. We do not have servers, do not collect analytics, and do not monetize your data in any way.
+We are committed to maintaining compliance with:
+	•	Apple’s App Store Guidelines
+	•	GDPR (General Data Protection Regulation)
+	•	CCPA (California Consumer Privacy Act)
 
+Because we do not collect or store any personal data, compliance obligations are minimal. We ensure that we do not engage in any practices that would conflict with these regulations.
+
+Transparency
+
+We believe in complete transparency about our data handling practices. Our App is designed to respect your privacy by processing everything locally on your device. We do not have servers, do not collect analytics, and do not monetize your data in any way.
+
+Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. If we make any changes, we will revise the “Last Updated” date at the top of this page and post the new Privacy Policy here. Your continued use of the App after any changes indicates your acceptance of the revised Privacy Policy.
+
+Contact Us
+
+If you have any questions or concerns about this Privacy Policy, please contact us at:
+Email: exiframe@hakanmelikoglu.com
 </div>
 
 <style>
