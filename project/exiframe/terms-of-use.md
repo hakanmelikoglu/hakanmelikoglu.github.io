@@ -73,7 +73,7 @@ permalink: /project/exiframe/terms-of-use/
 
   <div class="terms-section">
     <h2>9. Governing Law</h2>
-    <p>These Terms are governed by and construed in accordance with the laws of Turkey, without regard to its conflicts of law principles. Any disputes shall be resolved by the courts located in Turkey.</p>
+    <p>These Terms are governed by and construed in accordance with the laws of the United States of America, without regard to its conflicts of law principles. Any disputes shall be resolved by the courts located in the United States.</p>
   </div>
 
   <div class="terms-section">
