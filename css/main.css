@@ -1181,10 +1181,10 @@ a:hover {
 /* ===== SCREENSHOTS GRID ===== */
 .screenshots-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: var(--space-lg);
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: var(--space-md);
     margin-top: var(--space-3xl);
-    max-width: 1200px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1692,8 +1692,8 @@ a:hover {
     }
     
     .screenshots-grid {
-        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-        gap: var(--space-md);
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: var(--space-sm);
         max-width: 100%;
     }
     

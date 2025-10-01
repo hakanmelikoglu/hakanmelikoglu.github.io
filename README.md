@@ -86,7 +86,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📧 Contact
 
-- **Email**: exiframe@hakanmelikoglu.com
+- **Email**: contact@hakanmelikoglu.com
 - **GitHub**: [@hakanmelikoglu](https://github.com/hakanmelikoglu)
 - **LinkedIn**: [hakanmelikoglu](https://linkedin.com/in/hakanmelikoglu)
 
