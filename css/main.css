@@ -468,8 +468,8 @@ a:hover {
     background: linear-gradient(45deg, #00C9FF, #92FE9D, #FFF94C, #FF9A8B);
 }
 
-.project-card__gradient--baby-tracker {
-    background: linear-gradient(45deg, #FF6B9D, #C44569, #F8B500, #FF9A8B);
+.project-card__gradient--littlelog {
+    background: linear-gradient(45deg, #FFE066, #FFB347, #FF8C42, #FF6B35);
 }
 
 .project-card__icon {
@@ -486,7 +486,7 @@ a:hover {
     transform: scale(1.05);
 }
 
-.project-card__icon--baby {
+.project-card__icon--littlelog {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -514,11 +514,11 @@ a:hover {
     box-shadow: var(--shadow-sm);
 }
 
-.project-card__logo--baby {
+.project-card__logo--littlelog {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #FF6B9D, #C44569, #F8B500, #FF9A8B);
+    background: linear-gradient(135deg, #FFE066, #FFB347, #FF8C42, #FF6B35);
     background-size: 300% 300%;
     animation: gradientShift 15s ease infinite;
     border-radius: var(--radius-lg);
@@ -1082,8 +1082,8 @@ a:hover {
     background: linear-gradient(45deg, #00C9FF, #92FE9D, #FFF94C, #FF9A8B);
 }
 
-.project-hero__gradient--baby-tracker {
-    background: linear-gradient(45deg, #FF6B9D, #C44569, #F8B500, #FF9A8B);
+.project-hero__gradient--littlelog {
+    background: linear-gradient(45deg, #FFE066, #FFB347, #FF8C42, #FF6B35);
 }
 
 .project-hero__content {
@@ -1106,7 +1106,7 @@ a:hover {
     object-fit: cover;
 }
 
-.project-hero__icon--baby {
+.project-hero__icon--littlelog {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1686,4 +1686,123 @@ a:hover {
         flex-direction: column;
         align-items: center;
     }
+}
+
+/* LittleLog Icon Styles */
+.littlelog-icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.baby-face {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: #FFE066;
+    border: 3px solid #2C2C2C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eye {
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    background: #2C2C2C;
+    border-radius: 50%;
+    top: 18px;
+}
+
+.eye.left {
+    left: 18px;
+}
+
+.eye.right {
+    right: 18px;
+}
+
+.eye::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 4px;
+    background: white;
+    border-radius: 50%;
+    top: 1px;
+    left: 2px;
+    transform: rotate(-15deg);
+}
+
+.mouth {
+    position: absolute;
+    width: 20px;
+    height: 12px;
+    background: #2C2C2C;
+    border-radius: 0 0 20px 20px;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mouth::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 8px;
+    background: #DC143C;
+    border-radius: 0 0 16px 16px;
+    top: 2px;
+    left: 2px;
+}
+
+.mouth::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 6px;
+    background: #2C2C2C;
+    border-radius: 0 0 12px 12px;
+    bottom: 0;
+    left: 4px;
+}
+
+.hair-curl {
+    position: absolute;
+    width: 12px;
+    height: 20px;
+    background: #FFE066;
+    border: 2px solid #2C2C2C;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    top: -8px;
+    right: 8px;
+    transform: rotate(15deg);
+}
+
+/* Blush marks */
+.baby-face::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    background: #FF6B6B;
+    border-radius: 50%;
+    top: 24px;
+    left: 8px;
+}
+
+.baby-face::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    background: #FF6B6B;
+    border-radius: 50%;
+    top: 24px;
+    right: 8px;
 }

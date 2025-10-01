@@ -8,7 +8,7 @@ Transform the current Jekyll-based personal website into a modern, clean, and re
 ### 1.2 Current State Analysis
 - **Current Technology**: Jekyll static site generator
 - **Current Structure**: Basic Jekyll site with custom styling
-- **Current Content**: Homepage, project pages (EXIFrame, Baby Tracker), about, contact, blog
+- **Current Content**: Homepage, project pages (EXIFrame, LittleLog), about, contact, blog
 - **Current Issues**: 
   - Heavy reliance on Jekyll with complex custom styling
   - Inconsistent design patterns across pages
@@ -105,7 +105,7 @@ Transform the current Jekyll-based personal website into a modern, clean, and re
   - CTA: "View My Work" button
 - **Featured Projects**: 
   - EXIFrame app showcase
-  - Baby Tracker app showcase
+  - LittleLog app showcase
   - Project cards with hover effects
 - **About Preview**: Brief about section with link to full about page
 - **Contact CTA**: Call-to-action to contact page
@@ -114,7 +114,7 @@ Transform the current Jekyll-based personal website into a modern, clean, and re
 - **Page Header**: "My iOS Apps" title with description
 - **Project Grid**: 
   - EXIFrame project card
-  - Baby Tracker project card
+  - LittleLog project card
   - Each card includes: app icon, title, description, features, links
 - **Project Details**: Links to individual project pages
 
@@ -124,7 +124,7 @@ Transform the current Jekyll-based personal website into a modern, clean, and re
   - App description and App Store link
   - Features grid (4 main features)
   - Documentation links (Privacy Policy, Terms of Use)
-- **Baby Tracker** (`/project/baby-tracker/index.html`):
+- **LittleLog** (`/project/littlelog/index.html`):
   - Similar structure to EXIFrame
   - Custom app icon (CSS-generated baby face)
   - 6 main features in grid layout
@@ -249,7 +249,7 @@ hakanmelikoglu.github.io/
 │   └── images/
 └── project/
     ├── exiframe/
-    └── baby-tracker/
+    └── littlelog/
 ```
 
 ### 10.4 Deployment Process

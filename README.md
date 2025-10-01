@@ -9,7 +9,7 @@ Visit the live website at: [hakanmelikoglu.com](https://hakanmelikoglu.com)
 ## 📱 Projects Featured
 
 - **EXIFrame** - Privacy-focused EXIF editor for iOS
-- **Baby Tracker** - Comprehensive baby tracking app for iOS
+- **LittleLog** - Comprehensive baby tracking app for iOS
 
 ## 🛠️ Technology Stack
 
@@ -48,7 +48,7 @@ hakanmelikoglu.github.io/
 │   └── images/            # Images and assets
 └── project/
     ├── exiframe/          # EXIFrame project pages
-    └── baby-tracker/      # Baby Tracker project pages
+    └── littlelog/         # LittleLog project pages
 ```
 
 ## 🚀 Deployment
