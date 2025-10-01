@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXIFrame - Privacy-Focused EXIF Editor for iOS</title>
+    <meta name="description" content="EXIFrame is a privacy-focused EXIF editor for iOS that puts your data control first. Edit, view, and remove EXIF data from your photos with ease.">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="../../css/main.css" as="style">
+    <link rel="preload" href="../../js/main.js" as="script">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/components.css">
+    <link rel="stylesheet" href="../../css/dark-mode.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../../assets/icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/apple-touch-icon.png">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hakanmelikoglu.com/project/exiframe/">
+    <meta property="og:title" content="EXIFrame - Privacy-Focused EXIF Editor for iOS">
+    <meta property="og:description" content="EXIFrame is a privacy-focused EXIF editor for iOS that puts your data control first.">
+    <meta property="og:image" content="https://hakanmelikoglu.com/assets/images/exiframe/exifly-logo-light.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hakanmelikoglu.com/project/exiframe/">
+    <meta property="twitter:title" content="EXIFrame - Privacy-Focused EXIF Editor for iOS">
+    <meta property="twitter:description" content="EXIFrame is a privacy-focused EXIF editor for iOS that puts your data control first.">
+    <meta property="twitter:image" content="https://hakanmelikoglu.com/assets/images/exiframe/exifly-logo-light.png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="/" class="nav__logo">Hakan Melikoglu</a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="/" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/blog.html" class="nav__link">Blog</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/projects.html" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <span class="theme-toggle__icon theme-toggle__icon--sun">☀️</span>
+                        <span class="theme-toggle__icon theme-toggle__icon--moon">🌙</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Project Hero -->
+        <section class="project-hero">
+            <div class="project-hero__gradient project-hero__gradient--exiframe">
+                <div class="container">
+                    <div class="project-hero__content">
+                        <img src="../../assets/images/exiframe/exifly-logo-light.png" 
+                             alt="EXIFrame App Icon" 
+                             class="project-hero__icon">
+                        <h1 class="project-hero__title">EXIFrame</h1>
+                        <p class="project-hero__subtitle">Privacy-Focused EXIF Editor for iOS</p>
+                        <p class="project-hero__description">
+                            Take control of your photo metadata with EXIFrame. Edit, view, and remove EXIF data 
+                            from your photos with complete privacy and ease.
+                        </p>
+                        <div class="project-hero__actions">
+                            <a href="https://apps.apple.com/app/exiframe/id6473508929" 
+                               class="btn btn--app-store" 
+                               target="_blank" 
+                               rel="noopener noreferrer">
+                                <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1701734400" 
+                                     alt="Download on the App Store">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Details -->
+        <section class="project-details">
+            <div class="container">
+                <div class="project-content">
+                    <!-- App Description -->
+                    <div class="project-section">
+                        <h2 class="section__title">About EXIFrame</h2>
+                        <p class="project-description">
+                            EXIFrame is designed with privacy as its core principle. Unlike other EXIF editors, 
+                            all photo processing happens locally on your device. Your photos never leave your iPhone, 
+                            ensuring complete privacy and data control.
+                        </p>
+                    </div>
+
+                    <!-- Features Grid -->
+                    <div class="project-section">
+                        <h2 class="section__title">Key Features</h2>
+                        <div class="features-grid">
+                            <div class="feature-card" data-animate="fade-in">
+                                <div class="feature-icon">🔒</div>
+                                <h3 class="feature-title">Privacy First</h3>
+                                <p class="feature-description">
+                                    All photo processing happens locally on your device. No data is ever uploaded or shared with third parties.
+                                </p>
+                            </div>
+
+                            <div class="feature-card" data-animate="fade-in">
+                                <div class="feature-icon">✏️</div>
+                                <h3 class="feature-title">EXIF Editor</h3>
+                                <p class="feature-description">
+                                    View and edit detailed EXIF metadata including camera settings, location, and timestamps.
+                                </p>
+                            </div>
+
+                            <div class="feature-card" data-animate="fade-in">
+                                <div class="feature-icon">⚡</div>
+                                <h3 class="feature-title">Batch Processing</h3>
+                                <p class="feature-description">
+                                    Edit or remove EXIF data from multiple photos at once with just a few taps.
+                                </p>
+                            </div>
+
+                            <div class="feature-card" data-animate="fade-in">
+                                <div class="feature-icon">🎨</div>
+                                <h3 class="feature-title">Modern Design</h3>
+                                <p class="feature-description">
+                                    Clean, intuitive interface designed for iOS with support for light and dark modes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Screenshots Section -->
+                    <div class="project-section">
+                        <h2 class="section__title">App Screenshots</h2>
+                        <div class="screenshots-grid">
+                            <div class="screenshot-item" data-animate="fade-in">
+                                <div class="screenshot-placeholder">
+                                    <span class="screenshot-text">Main Interface</span>
+                                </div>
+                            </div>
+                            <div class="screenshot-item" data-animate="fade-in">
+                                <div class="screenshot-placeholder">
+                                    <span class="screenshot-text">EXIF Editor</span>
+                                </div>
+                            </div>
+                            <div class="screenshot-item" data-animate="fade-in">
+                                <div class="screenshot-placeholder">
+                                    <span class="screenshot-text">Batch Processing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Technical Details -->
+                    <div class="project-section">
+                        <h2 class="section__title">Technical Details</h2>
+                        <div class="tech-details">
+                            <div class="tech-item">
+                                <h3 class="tech-title">Platform</h3>
+                                <p class="tech-description">iOS 15.0+</p>
+                            </div>
+                            <div class="tech-item">
+                                <h3 class="tech-title">Language</h3>
+                                <p class="tech-description">Swift</p>
+                            </div>
+                            <div class="tech-item">
+                                <h3 class="tech-title">Framework</h3>
+                                <p class="tech-description">SwiftUI</p>
+                            </div>
+                            <div class="tech-item">
+                                <h3 class="tech-title">Privacy</h3>
+                                <p class="tech-description">No Data Collection</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Documentation Links -->
+                    <div class="project-section">
+                        <h2 class="section__title">Documentation</h2>
+                        <div class="doc-links">
+                            <a href="/project/exiframe/privacy-policy.html" class="btn btn--outline">Privacy Policy</a>
+                            <a href="/project/exiframe/terms-of-use.html" class="btn btn--outline">Terms of Use</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="footer__logo">Hakan Melikoglu</h3>
+                    <p class="footer__description">
+                        iOS Developer passionate about creating privacy-focused mobile applications.
+                    </p>
+                </div>
+                
+                <div class="footer__links">
+                    <h4 class="footer__title">Quick Links</h4>
+                    <ul class="footer__list">
+                        <li><a href="/projects.html" class="footer__link">Projects</a></li>
+                        <li><a href="/about.html" class="footer__link">About</a></li>
+                        <li><a href="/contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__social">
+                    <h4 class="footer__title">Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/hakanmelikoglu" 
+                           class="social-link" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="GitHub">
+                            <span class="social-icon">🐙</span>
+                        </a>
+                        <a href="https://linkedin.com/in/hakanmelikoglu" 
+                           class="social-link" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            <span class="social-icon">💼</span>
+                        </a>
+                        <a href="mailto:exiframe@hakanmelikoglu.com" 
+                           class="social-link"
+                           aria-label="Email">
+                            <span class="social-icon">✉️</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; <span id="current-year"></span> Hakan Melikoglu. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../../js/main.js"></script>
+    <script src="../../js/dark-mode.js"></script>
+    <script src="../../js/animations.js"></script>
+</body>
+</html>

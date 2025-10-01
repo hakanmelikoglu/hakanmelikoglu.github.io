@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Hakan Melikoglu</title>
+    <meta name="description" content="Learn more about Hakan Melikoglu, an iOS developer passionate about creating privacy-focused mobile applications.">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/main.css" as="style">
+    <link rel="preload" href="js/main.js" as="script">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hakanmelikoglu.com/about.html">
+    <meta property="og:title" content="About - Hakan Melikoglu">
+    <meta property="og:description" content="Learn more about Hakan Melikoglu, an iOS developer passionate about creating privacy-focused mobile applications.">
+    <meta property="og:image" content="https://hakanmelikoglu.com/assets/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hakanmelikoglu.com/about.html">
+    <meta property="twitter:title" content="About - Hakan Melikoglu">
+    <meta property="twitter:description" content="Learn more about Hakan Melikoglu, an iOS developer passionate about creating privacy-focused mobile applications.">
+    <meta property="twitter:image" content="https://hakanmelikoglu.com/assets/images/og-image.jpg">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="/" class="nav__logo">Hakan Melikoglu</a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="/" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/blog.html" class="nav__link">Blog</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/projects.html" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/about.html" class="nav__link nav__link--active">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <span class="theme-toggle__icon theme-toggle__icon--sun">☀️</span>
+                        <span class="theme-toggle__icon theme-toggle__icon--moon">🌙</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <div class="about-hero">
+                    <div class="about-hero__image">
+                        <img src="https://github.com/hakanmelikoglu.png" alt="Hakan Melikoglu" class="profile-image">
+                    </div>
+                    <div class="about-hero__content">
+                        <h1 class="about-hero__title">About Me</h1>
+                        <p class="about-hero__subtitle">iOS Developer & Technology Enthusiast</p>
+                        <p class="about-hero__description">
+                            Hi, I'm Hakan Melikoglu. I'm an iOS developer passionate about creating intuitive and 
+                            privacy-focused mobile applications that make a difference in people's lives.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Content -->
+        <section class="about-content">
+            <div class="container">
+                <div class="about-grid">
+                    <!-- Experience Card -->
+                    <div class="card" data-animate="fade-in">
+                        <div class="card__header">
+                            <h2 class="card__title">Experience</h2>
+                            <p class="card__subtitle">My journey in iOS development</p>
+                        </div>
+                        <div class="card__content">
+                            <p>
+                                I specialize in iOS development using Swift and SwiftUI. My current focus is on 
+                                developing privacy-focused applications that help users maintain control over their data.
+                            </p>
+                            
+                            <div class="timeline">
+                                <div class="timeline__item">
+                                    <div class="timeline__year">2023</div>
+                                    <div class="timeline__content">
+                                        <h3 class="timeline__title">EXIFrame iOS App</h3>
+                                        <p class="timeline__description">
+                                            Developed and launched a privacy-focused EXIF editor for iOS that helps users 
+                                            manage their photo metadata with complete data control.
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="timeline__item">
+                                    <div class="timeline__year">2024</div>
+                                    <div class="timeline__content">
+                                        <h3 class="timeline__title">Baby Tracker iOS App</h3>
+                                        <p class="timeline__description">
+                                            Created a comprehensive baby tracking application that helps parents monitor 
+                                            their child's development with privacy-first approach.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Card -->
+                    <div class="card" data-animate="fade-in">
+                        <div class="card__header">
+                            <h2 class="card__title">Skills & Expertise</h2>
+                            <p class="card__subtitle">Technologies and tools I work with</p>
+                        </div>
+                        <div class="card__content">
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <div class="skill-icon">📱</div>
+                                    <div class="skill-content">
+                                        <h3 class="skill-title">iOS Development</h3>
+                                        <p class="skill-description">Swift, SwiftUI, UIKit</p>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="skill-icon">🔄</div>
+                                    <div class="skill-content">
+                                        <h3 class="skill-title">Version Control</h3>
+                                        <p class="skill-description">Git, GitHub</p>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="skill-icon">🚀</div>
+                                    <div class="skill-content">
+                                        <h3 class="skill-title">App Store Publishing</h3>
+                                        <p class="skill-description">App submission, TestFlight</p>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="skill-icon">🎨</div>
+                                    <div class="skill-content">
+                                        <h3 class="skill-title">UI/UX Design</h3>
+                                        <p class="skill-description">User Interface Design</p>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="skill-icon">🔒</div>
+                                    <div class="skill-content">
+                                        <h3 class="skill-title">Privacy & Security</h3>
+                                        <p class="skill-description">Data Protection, Security Best Practices</p>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="skill-icon">⚡</div>
+                                    <div class="skill-content">
+                                        <h3 class="skill-title">Performance</h3>
+                                        <p class="skill-description">App Optimization, Memory Management</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Philosophy Section -->
+                <div class="philosophy-section">
+                    <div class="card" data-animate="fade-in">
+                        <div class="card__header">
+                            <h2 class="card__title">My Philosophy</h2>
+                            <p class="card__subtitle">What drives my work</p>
+                        </div>
+                        <div class="card__content">
+                            <div class="philosophy-grid">
+                                <div class="philosophy-item">
+                                    <h3 class="philosophy-title">Privacy First</h3>
+                                    <p class="philosophy-description">
+                                        I believe user data should remain private and under user control. 
+                                        All my apps are designed with privacy as a core principle.
+                                    </p>
+                                </div>
+                                
+                                <div class="philosophy-item">
+                                    <h3 class="philosophy-title">User Experience</h3>
+                                    <p class="philosophy-description">
+                                        Great apps should be intuitive and delightful to use. I focus on 
+                                        creating seamless experiences that users love.
+                                    </p>
+                                </div>
+                                
+                                <div class="philosophy-item">
+                                    <h3 class="philosophy-title">Quality Code</h3>
+                                    <p class="philosophy-description">
+                                        Clean, maintainable code is the foundation of great software. 
+                                        I write code that's both efficient and easy to understand.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Connect Section -->
+                <div class="connect-section">
+                    <div class="card" data-animate="fade-in">
+                        <div class="card__header">
+                            <h2 class="card__title">Let's Connect</h2>
+                            <p class="card__subtitle">I'd love to hear from you</p>
+                        </div>
+                        <div class="card__content">
+                            <p class="connect-description">
+                                Whether you're interested in collaborating, have questions about my apps, 
+                                or just want to say hello, I'd love to connect with you.
+                            </p>
+                            
+                            <div class="connect-actions">
+                                <a href="/contact.html" class="btn btn--primary">Get In Touch</a>
+                                <a href="/projects.html" class="btn btn--outline">View My Work</a>
+                            </div>
+                            
+                            <div class="social-links">
+                                <a href="https://github.com/hakanmelikoglu" 
+                                   class="social-link" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   aria-label="GitHub">
+                                    <span class="social-icon">🐙</span>
+                                    <span class="social-text">GitHub</span>
+                                </a>
+                                <a href="https://linkedin.com/in/hakanmelikoglu" 
+                                   class="social-link" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   aria-label="LinkedIn">
+                                    <span class="social-icon">💼</span>
+                                    <span class="social-text">LinkedIn</span>
+                                </a>
+                                <a href="mailto:exiframe@hakanmelikoglu.com" 
+                                   class="social-link"
+                                   aria-label="Email">
+                                    <span class="social-icon">✉️</span>
+                                    <span class="social-text">Email</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="footer__logo">Hakan Melikoglu</h3>
+                    <p class="footer__description">
+                        iOS Developer passionate about creating privacy-focused mobile applications.
+                    </p>
+                </div>
+                
+                <div class="footer__links">
+                    <h4 class="footer__title">Quick Links</h4>
+                    <ul class="footer__list">
+                        <li><a href="/projects.html" class="footer__link">Projects</a></li>
+                        <li><a href="/about.html" class="footer__link">About</a></li>
+                        <li><a href="/contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__social">
+                    <h4 class="footer__title">Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/hakanmelikoglu" 
+                           class="social-link" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="GitHub">
+                            <span class="social-icon">🐙</span>
+                        </a>
+                        <a href="https://linkedin.com/in/hakanmelikoglu" 
+                           class="social-link" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            <span class="social-icon">💼</span>
+                        </a>
+                        <a href="mailto:exiframe@hakanmelikoglu.com" 
+                           class="social-link"
+                           aria-label="Email">
+                            <span class="social-icon">✉️</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; <span id="current-year"></span> Hakan Melikoglu. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/dark-mode.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

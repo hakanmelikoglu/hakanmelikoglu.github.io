@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Hakan Melikoglu</title>
+    <meta name="description" content="Read my thoughts on iOS development, technology insights, and updates about my projects.">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/main.css" as="style">
+    <link rel="preload" href="js/main.js" as="script">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hakanmelikoglu.com/blog.html">
+    <meta property="og:title" content="Blog - Hakan Melikoglu">
+    <meta property="og:description" content="Read my thoughts on iOS development, technology insights, and updates about my projects.">
+    <meta property="og:image" content="https://hakanmelikoglu.com/assets/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hakanmelikoglu.com/blog.html">
+    <meta property="twitter:title" content="Blog - Hakan Melikoglu">
+    <meta property="twitter:description" content="Read my thoughts on iOS development, technology insights, and updates about my projects.">
+    <meta property="twitter:image" content="https://hakanmelikoglu.com/assets/images/og-image.jpg">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="/" class="nav__logo">Hakan Melikoglu</a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="/" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/blog.html" class="nav__link nav__link--active">Blog</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/projects.html" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/contact.html" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <span class="theme-toggle__icon theme-toggle__icon--sun">☀️</span>
+                        <span class="theme-toggle__icon theme-toggle__icon--moon">🌙</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-header__title">Blog</h1>
+                <p class="page-header__subtitle">
+                    My thoughts on iOS development, technology insights, and updates about my projects.
+                </p>
+            </div>
+        </section>
+
+        <!-- Blog Content -->
+        <section class="blog-content">
+            <div class="container">
+                <!-- Coming Soon Message -->
+                <div class="coming-soon-card">
+                    <div class="card" data-animate="fade-in">
+                        <div class="card__header">
+                            <h2 class="card__title">Blog Coming Soon</h2>
+                            <p class="card__subtitle">I'm working on some great content for you</p>
+                        </div>
+                        <div class="card__content">
+                            <div class="coming-soon-content">
+                                <div class="coming-soon-icon">📝</div>
+                                <p class="coming-soon-text">
+                                    I'm currently working on creating valuable content about iOS development, 
+                                    app design, privacy in mobile apps, and my development journey. 
+                                    Check back soon for the first posts!
+                                </p>
+                                
+                                <div class="coming-soon-topics">
+                                    <h3 class="topics-title">What to expect:</h3>
+                                    <ul class="topics-list">
+                                        <li>iOS Development Tips & Tricks</li>
+                                        <li>SwiftUI Best Practices</li>
+                                        <li>Privacy-First App Design</li>
+                                        <li>App Store Optimization</li>
+                                        <li>Development Workflow Insights</li>
+                                        <li>Project Updates & Behind-the-Scenes</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="coming-soon-actions">
+                                    <a href="/contact.html" class="btn btn--primary">Get Notified</a>
+                                    <a href="https://github.com/hakanmelikoglu" 
+                                       class="btn btn--outline" 
+                                       target="_blank" 
+                                       rel="noopener noreferrer">Follow on GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Newsletter Signup -->
+                <div class="newsletter-section">
+                    <div class="card" data-animate="fade-in">
+                        <div class="card__header">
+                            <h2 class="card__title">Stay Updated</h2>
+                            <p class="card__subtitle">Get notified when new posts are published</p>
+                        </div>
+                        <div class="card__content">
+                            <form class="newsletter-form" id="newsletter-form">
+                                <div class="newsletter-input-group">
+                                    <input type="email" 
+                                           id="newsletter-email" 
+                                           name="email" 
+                                           class="form-input" 
+                                           placeholder="Enter your email address"
+                                           required>
+                                    <button type="submit" class="btn btn--primary">Subscribe</button>
+                                </div>
+                                <p class="newsletter-disclaimer">
+                                    I'll only send you updates about new blog posts. No spam, ever.
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Activity -->
+                <div class="recent-activity">
+                    <div class="card" data-animate="fade-in">
+                        <div class="card__header">
+                            <h2 class="card__title">Recent Activity</h2>
+                            <p class="card__subtitle">What I've been working on lately</p>
+                        </div>
+                        <div class="card__content">
+                            <div class="activity-list">
+                                <div class="activity-item">
+                                    <div class="activity-icon">🚀</div>
+                                    <div class="activity-content">
+                                        <h3 class="activity-title">EXIFrame App Update</h3>
+                                        <p class="activity-description">
+                                            Released version 1.2 with improved performance and new privacy features.
+                                        </p>
+                                        <span class="activity-date">December 2024</span>
+                                    </div>
+                                </div>
+
+                                <div class="activity-item">
+                                    <div class="activity-icon">👶</div>
+                                    <div class="activity-content">
+                                        <h3 class="activity-title">Baby Tracker Development</h3>
+                                        <p class="activity-description">
+                                            Working on new features for the upcoming Baby Tracker app release.
+                                        </p>
+                                        <span class="activity-date">November 2024</span>
+                                    </div>
+                                </div>
+
+                                <div class="activity-item">
+                                    <div class="activity-icon">🔒</div>
+                                    <div class="activity-content">
+                                        <h3 class="activity-title">Privacy Research</h3>
+                                        <p class="activity-description">
+                                            Exploring new ways to enhance user privacy in mobile applications.
+                                        </p>
+                                        <span class="activity-date">October 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="footer__logo">Hakan Melikoglu</h3>
+                    <p class="footer__description">
+                        iOS Developer passionate about creating privacy-focused mobile applications.
+                    </p>
+                </div>
+                
+                <div class="footer__links">
+                    <h4 class="footer__title">Quick Links</h4>
+                    <ul class="footer__list">
+                        <li><a href="/projects.html" class="footer__link">Projects</a></li>
+                        <li><a href="/about.html" class="footer__link">About</a></li>
+                        <li><a href="/contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__social">
+                    <h4 class="footer__title">Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/hakanmelikoglu" 
+                           class="social-link" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="GitHub">
+                            <span class="social-icon">🐙</span>
+                        </a>
+                        <a href="https://linkedin.com/in/hakanmelikoglu" 
+                           class="social-link" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            <span class="social-icon">💼</span>
+                        </a>
+                        <a href="mailto:exiframe@hakanmelikoglu.com" 
+                           class="social-link"
+                           aria-label="Email">
+                            <span class="social-icon">✉️</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; <span id="current-year"></span> Hakan Melikoglu. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/dark-mode.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

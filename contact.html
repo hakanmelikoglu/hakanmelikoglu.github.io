@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Hakan Melikoglu</title>
+    <meta name="description" content="Get in touch with Hakan Melikoglu. Contact for collaborations, questions, or just to say hello.">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/main.css" as="style">
+    <link rel="preload" href="js/main.js" as="script">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hakanmelikoglu.com/contact.html">
+    <meta property="og:title" content="Contact - Hakan Melikoglu">
+    <meta property="og:description" content="Get in touch with Hakan Melikoglu. Contact for collaborations, questions, or just to say hello.">
+    <meta property="og:image" content="https://hakanmelikoglu.com/assets/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hakanmelikoglu.com/contact.html">
+    <meta property="twitter:title" content="Contact - Hakan Melikoglu">
+    <meta property="twitter:description" content="Get in touch with Hakan Melikoglu. Contact for collaborations, questions, or just to say hello.">
+    <meta property="twitter:image" content="https://hakanmelikoglu.com/assets/images/og-image.jpg">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="/" class="nav__logo">Hakan Melikoglu</a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="/" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/blog.html" class="nav__link">Blog</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/projects.html" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/about.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/contact.html" class="nav__link nav__link--active">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <span class="theme-toggle__icon theme-toggle__icon--sun">☀️</span>
+                        <span class="theme-toggle__icon theme-toggle__icon--moon">🌙</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-header__title">Let's Connect</h1>
+                <p class="page-header__subtitle">
+                    Feel free to reach out for collaborations, questions, or just to say hello!
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Content -->
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Methods -->
+                    <div class="contact-methods">
+                        <h2 class="section__title">Get In Touch</h2>
+                        <p class="section__subtitle">Choose your preferred way to connect</p>
+                        
+                        <div class="contact-cards">
+                            <div class="contact-card" data-animate="fade-in">
+                                <div class="contact-card__icon">📧</div>
+                                <h3 class="contact-card__title">Email</h3>
+                                <p class="contact-card__description">
+                                    Send me an email and I'll get back to you as soon as possible.
+                                </p>
+                                <a href="mailto:exiframe@hakanmelikoglu.com" class="contact-card__link">
+                                    exiframe@hakanmelikoglu.com
+                                </a>
+                            </div>
+
+                            <div class="contact-card" data-animate="fade-in">
+                                <div class="contact-card__icon">💼</div>
+                                <h3 class="contact-card__title">LinkedIn</h3>
+                                <p class="contact-card__description">
+                                    Connect with me professionally on LinkedIn.
+                                </p>
+                                <a href="https://linkedin.com/in/hakanmelikoglu" 
+                                   class="contact-card__link" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer">
+                                    Connect on LinkedIn
+                                </a>
+                            </div>
+
+                            <div class="contact-card" data-animate="fade-in">
+                                <div class="contact-card__icon">🐙</div>
+                                <h3 class="contact-card__title">GitHub</h3>
+                                <p class="contact-card__description">
+                                    Check out my code and follow my development journey.
+                                </p>
+                                <a href="https://github.com/hakanmelikoglu" 
+                                   class="contact-card__link" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer">
+                                    Follow on GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-section">
+                        <div class="card" data-animate="fade-in">
+                            <div class="card__header">
+                                <h2 class="card__title">Send a Message</h2>
+                                <p class="card__subtitle">I'd love to hear from you</p>
+                            </div>
+                            <div class="card__content">
+                                <form class="contact-form" id="contact-form">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Name *</label>
+                                        <input type="text" 
+                                               id="name" 
+                                               name="name" 
+                                               class="form-input" 
+                                               required
+                                               placeholder="Your full name">
+                                        <div class="form-error" id="name-error"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email *</label>
+                                        <input type="email" 
+                                               id="email" 
+                                               name="email" 
+                                               class="form-input" 
+                                               required
+                                               placeholder="your.email@example.com">
+                                        <div class="form-error" id="email-error"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="subject" class="form-label">Subject</label>
+                                        <input type="text" 
+                                               id="subject" 
+                                               name="subject" 
+                                               class="form-input"
+                                               placeholder="What's this about?">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="message" class="form-label">Message *</label>
+                                        <textarea id="message" 
+                                                  name="message" 
+                                                  class="form-textarea" 
+                                                  rows="5" 
+                                                  required
+                                                  placeholder="Tell me what's on your mind..."></textarea>
+                                        <div class="form-error" id="message-error"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn--primary btn--full-width">
+                                            Send Message
+                                        </button>
+                                    </div>
+
+                                    <div class="form-success" id="form-success"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Section -->
+                <div class="faq-section">
+                    <div class="card" data-animate="fade-in">
+                        <div class="card__header">
+                            <h2 class="card__title">Frequently Asked Questions</h2>
+                            <p class="card__subtitle">Quick answers to common questions</p>
+                        </div>
+                        <div class="card__content">
+                            <div class="faq-list">
+                                <div class="faq-item">
+                                    <h3 class="faq-question">How can I download your apps?</h3>
+                                    <p class="faq-answer">
+                                        You can download my apps from the App Store. Visit the 
+                                        <a href="/projects.html">Projects page</a> to find direct links to each app.
+                                    </p>
+                                </div>
+
+                                <div class="faq-item">
+                                    <h3 class="faq-question">Do you offer app development services?</h3>
+                                    <p class="faq-answer">
+                                        Yes! I'm available for iOS app development projects. 
+                                        <a href="mailto:exiframe@hakanmelikoglu.com">Contact me</a> to discuss your project requirements.
+                                    </p>
+                                </div>
+
+                                <div class="faq-item">
+                                    <h3 class="faq-question">How do you ensure app privacy?</h3>
+                                    <p class="faq-answer">
+                                        Privacy is a core principle in all my apps. I use local data processing, 
+                                        minimal data collection, and transparent privacy policies. Check each app's 
+                                        privacy policy for detailed information.
+                                    </p>
+                                </div>
+
+                                <div class="faq-item">
+                                    <h3 class="faq-question">Can I suggest features for your apps?</h3>
+                                    <p class="faq-answer">
+                                        Absolutely! I welcome feature suggestions and feedback. 
+                                        <a href="mailto:exiframe@hakanmelikoglu.com">Send me your ideas</a> and I'll consider them for future updates.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="footer__logo">Hakan Melikoglu</h3>
+                    <p class="footer__description">
+                        iOS Developer passionate about creating privacy-focused mobile applications.
+                    </p>
+                </div>
+                
+                <div class="footer__links">
+                    <h4 class="footer__title">Quick Links</h4>
+                    <ul class="footer__list">
+                        <li><a href="/projects.html" class="footer__link">Projects</a></li>
+                        <li><a href="/about.html" class="footer__link">About</a></li>
+                        <li><a href="/contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__social">
+                    <h4 class="footer__title">Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/hakanmelikoglu" 
+                           class="social-link" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="GitHub">
+                            <span class="social-icon">🐙</span>
+                        </a>
+                        <a href="https://linkedin.com/in/hakanmelikoglu" 
+                           class="social-link" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            <span class="social-icon">💼</span>
+                        </a>
+                        <a href="mailto:exiframe@hakanmelikoglu.com" 
+                           class="social-link"
+                           aria-label="Email">
+                            <span class="social-icon">✉️</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; <span id="current-year"></span> Hakan Melikoglu. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/dark-mode.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
