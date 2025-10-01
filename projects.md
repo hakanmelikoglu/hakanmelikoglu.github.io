@@ -57,6 +57,49 @@ permalink: /projects/
       </div>
     </div>
   </div>
+
+  <div class="project-card baby-tracker">
+    <div class="project-hero">
+      <div class="hero-gradient baby-gradient">
+        <div class="app-icon">
+          <div class="icon-gradient baby-gradient">
+            <div class="baby-icon">
+              <div class="baby-face">
+                <div class="eye left"></div>
+                <div class="eye right"></div>
+                <div class="mouth"></div>
+              </div>
+              <div class="pacifier"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-content">
+      <div class="project-header">
+        <div class="project-logo">
+          <div class="logo-gradient baby-gradient">
+            <div class="baby-icon">
+              <div class="baby-face">
+                <div class="eye left"></div>
+                <div class="eye right"></div>
+                <div class="mouth"></div>
+              </div>
+              <div class="pacifier"></div>
+            </div>
+          </div>
+        </div>
+        <h2>Baby Tracker</h2>
+      </div>
+      <p class="project-description">A comprehensive baby tracking app for iOS that helps parents monitor feeding, sleeping, diaper changes, and growth milestones with an intuitive interface.</p>
+      <div class="project-links">
+        <a href="/project/baby-tracker/" class="primary-button">Learn More</a>
+        <a href="https://apps.apple.com/app/baby-tracker/id1234567890" class="app-store-button" target="_blank">
+          <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1701734400" alt="Download on the App Store">
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <style>
@@ -240,6 +283,118 @@ permalink: /projects/
 .app-store-button img {
   height: 40px;
   width: auto;
+}
+
+/* Baby Tracker specific styles */
+.baby-gradient {
+  background: linear-gradient(45deg, #FF6B9D, #C44569, #F8B500, #FF9A8B) !important;
+  background-size: 300% 300%;
+  animation: gradientShift 15s ease infinite;
+}
+
+.baby-tracker .project-content h2 {
+  background: linear-gradient(120deg, #FF6B9D, #C44569) !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.baby-tracker .primary-button {
+  background: #FF6B9D !important;
+}
+
+.baby-icon {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.baby-face {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.eye {
+  width: 8px;
+  height: 8px;
+  background: #333;
+  border-radius: 50%;
+  position: absolute;
+  top: 25px;
+}
+
+.eye.left {
+  left: 25px;
+}
+
+.eye.right {
+  right: 25px;
+}
+
+.mouth {
+  width: 20px;
+  height: 10px;
+  border: 2px solid #333;
+  border-top: none;
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.pacifier {
+  width: 12px;
+  height: 12px;
+  background: #FF6B9D;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.baby-tracker .project-logo .baby-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.baby-tracker .project-logo .baby-face {
+  width: 20px;
+  height: 20px;
+}
+
+.baby-tracker .project-logo .eye {
+  width: 2px;
+  height: 2px;
+  top: 6px;
+}
+
+.baby-tracker .project-logo .eye.left {
+  left: 6px;
+}
+
+.baby-tracker .project-logo .eye.right {
+  right: 6px;
+}
+
+.baby-tracker .project-logo .mouth {
+  width: 6px;
+  height: 3px;
+  bottom: 5px;
+}
+
+.baby-tracker .project-logo .pacifier {
+  width: 3px;
+  height: 3px;
+  right: 2px;
 }
 
 @keyframes gradientShift {
